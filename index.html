@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell&family=Concert+One&family=Parisienne&
+        family=Rajdhani:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+
+
+        <title>New in Town</title>
+    </head>
+    <body>
+        <!--Div for splash screen-->
+        <div class="splash">
+            <h1 class="fade-in">Hello there</h1>
+        </div>
+
+
+    <script src="script.js"></script>
+    <div class="container">
+        <!--Div for clicking button and stats-->
+        <div id="ui">
+            <button id ="clicking" onclick="socialPoints()">Clicking button</button>
+            <!--Div for the stats-->
+            <div id="stats">
+                <div class="stats">
+                    <h3 style="border-bottom:none;border-right:none;" id="social">Social Points:</h3>
+                    <h3 style="border-right:none;" id="media">Social Media: </h3>
+                </div>
+                <div class="stats">
+                    <h3 style="border-bottom:none;" id="money">Money: </h3>
+                    <h3 id="desire">Desirability: </h3>
+                </div>
+            </div>    
+        </div>
+        <!--Div for upgrades (vertical)-->
+        <div id="upgrades">
+            <h1 id="h1">Upgrades</h1>
+            <button id="fly" onclick="fly()">Butterfly <br> Increase points per click<br> Cost: (</span id = "flyCost"> 10 social points </span>)</button>
+            <button id="my" onclick="my()">Oh My! <br> Gain desirability points/ increase points per second <br> Cost: (</span id = "myCost"> 15 money </span>)</button>
+            <button id="media2" onclick="mediaUp()">Slightly Addicted <br> Increase social media per second <br> Cost: (</span id = "mediaCost"> 2 money </span>)</button>
+            <button id="work" onclick="work()">Workaholic <br> Increase payment of money per second <br> Cost: (</span id = "workCost"> 5 money </span>)</button>
+        </div>
+    </div>
+    </body>
+</html>
+
+<!--Thing-->

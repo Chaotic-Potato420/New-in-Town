@@ -1,0 +1,102 @@
+*{
+    text-align:center;
+}
+
+body{
+    background-color: #3a0bbc;
+    color: #f8ac9b;
+}
+
+.container{
+    justify-content:center;
+    display:flex;
+}
+
+#clicking{
+    width:100%;
+    height:450px;
+}
+
+#stats{
+    display: flex;
+    padding-top: 5px;
+}
+
+.stats{
+    display:inline-grid;
+    flex: 50%;
+    height: 70px;
+    padding: 5px 0;
+}
+
+h3{
+    border: 2px solid #59f8f0;
+    margin: 0px;
+    text-align: left;
+    padding: 3px;
+}
+
+#ui{
+    width:75%;
+    padding-right: 10px;
+}
+
+#upgrades button{
+    display: block;
+}
+
+button{
+    width:300px;
+    height: 111.2px;
+    margin-bottom: 3px;
+    border: 2px solid #59f8f0;
+    background-color: #f8ac9b;
+}
+
+.splash{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 200;
+    line-height: 90vh;
+    text-align: center;
+    justify-content: center;
+    background-color:blue;
+    color: white;
+}
+
+.splash.display-none{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -10;
+    line-height: 90vh;
+    text-align: center;
+    justify-content: center;
+    background-color:blue;
+    color: white;
+    transition: all 0.5s;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity :1;
+    }
+}
+
+.fade-in{
+    opacity:0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.h1{
+    border: 2px solid #59f8f0;
+    padding: 16px;
+    margin: 3px;
+    width: 260px;
+}
